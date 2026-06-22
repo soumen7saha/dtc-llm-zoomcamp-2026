@@ -1,0 +1,13 @@
+.venv
+.env
+.ipynb_checkpoints
+faq.db*
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+Module1/__pycache__
+Module2/__pycache__
+Module3/__pycache__
+Module4/__pycache__
+Module5/__pycache__
