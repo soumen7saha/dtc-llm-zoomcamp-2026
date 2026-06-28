@@ -8,6 +8,9 @@ faq.db*
 .DS_Store
 Module1/__pycache__
 Module2/__pycache__
+M2-ONNX/__pycache__
+M2-ONNX/Hw2/__pycache__
 Module3/__pycache__
 Module4/__pycache__
 Module5/__pycache__
+models/
