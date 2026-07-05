@@ -18,7 +18,7 @@
 
 - 2-5x more
 
-`Output Token Count for short summary: 180`
+`Output Token Count for long summary: 180`
 
 #### 5. After changing english_brevity to ask for 3 sentences instead of 1, how does the output token count compare to the original 1-sentence version?
 
