@@ -14,11 +14,6 @@ How do I join the Office Hours or live workshop if I don’t have the Zoom link?
 "Is the Zoom link for the workshop shared with students, or only with the teaching team?",489dd1c9d9
 What’s the best way to follow the live Office Hours stream if I’m a student?,489dd1c9d9
 "Should I type my questions in the live chat during Office Hours, or use something else?",489dd1c9d9
-"How do the free GPU hours work on these cloud options — is the limit monthly, weekly, or something else?",c6c2888275
-"If I change the setup or configuration, does that affect the free GPU quota or get billed separately?",c6c2888275
-What are some good free or low-cost cloud alternatives with GPU for this course besides the usual ones?,c6c2888275
-"Can I use Google Colab, Kaggle, or Databricks for the course notebooks and GPU tasks?",c6c2888275
-"Are there any restrictions on what I can install on these free GPU platforms, and how do I check what’s included in the free plan?",c6c2888275
 How do I find my row on the leaderboard if I can’t see my name right away?,c2903069a0
 Why does the leaderboard show some random nickname instead of my real name?,c2903069a0
 Where can I check what display name I’m using for the course?,c2903069a0
@@ -54,11 +49,6 @@ How can I increase the RAM available to WSL2 on Windows for running a model?,f3d
 Where should I put a .wslconfig file to give WSL2 more memory?,f3dd94f323
 What do I need to write in .wslconfig to set WSL2 memory to 8GB?,f3dd94f323
 "After changing WSL2 memory settings, how can I check if the new RAM limit is actually applied?",f3dd94f323
-Why do I get a 500 server error when I try to log into the homework site with GitHub?,c774542f32
-I see a third-party login failure on the course page — is GitHub login broken right now?,c774542f32
-What should I do if GitHub sign-in fails while submitting homework?,c774542f32
-Is there a workaround for the GitHub login error on the homework portal?,c774542f32
-"Does the GitHub login issue affect everyone, or can I use another account to submit?",c774542f32
 "Why aren't we using LangChain in this course, and what should we learn first instead?",b7cdde6b25
 Is there a reason the course skips LangChain for now?,b7cdde6b25
 Why start without a framework like LangChain when building LLM apps?,b7cdde6b25
@@ -74,11 +64,6 @@ Why am I getting a 429 RateLimitError from OpenAI even though my code looks fine
 I added billing but still get an insufficient_quota error — do I need to make a new API key?,152af39a53
 Which model should I use in chat.completions.create if my current one is not available to my account?,152af39a53
 What are the exact steps to fix the OpenAI quota error and get my request working again?,152af39a53
-Why am I getting 'Cannot import name OpenAI from openai' when I try to use the OpenAI client?,35e1ef85a1
-How do I fix the OpenAI import error in the course project?,35e1ef85a1
-Do I need to upgrade the openai package if OpenAI can't be imported from openai?,35e1ef85a1
-What version of openai should I use to avoid the 'Cannot import name OpenAI' error?,35e1ef85a1
-My code breaks with 'Cannot import name OpenAI from openai' — what should I change?,35e1ef85a1
 How much do I need to spend to start using the OpenAI API?,554d0eb78b
 Is it expensive to use the OpenAI API for this course?,554d0eb78b
 Do I have to put in a lot of money before I can try the OpenAI API?,554d0eb78b
@@ -89,11 +74,6 @@ Can I get started with OpenAI API usage for just a few cents?,554d0eb78b
 "Can I complete the course tasks without buying OpenAI API access, and where are the no-cost alternatives listed?",85384a18e5
 "Is paying for OpenAI necessary for the homeworks, or does the GitHub have some free API alternatives I can use?",85384a18e5
 "To do the course exercises, do I have to subscribe to OpenAI, or is there a list of free replacements somewhere in the course materials?",85384a18e5
-How can I keep my API keys safe in a project without putting them in the notebook or code?,8d23fe792f
-What's a simple way to save several API keys locally so I can load them later in Python?,8d23fe792f
-How do I set up a YAML file for my OpenAI and Groq keys and make sure Git doesn't track it?,8d23fe792f
-Which package do I need if I want to read API keys from a YAML file in a Jupyter notebook?,8d23fe792f
-Can I load my secret keys from a file and use them directly instead of using environment variables?,8d23fe792f
 How do I keep my API key in a .env file and read it in Python?,233dabe430
 What imports do I need to load environment variables from a .env file?,233dabe430
 How can I point Python to the right .env path and get the key value?,233dabe430
@@ -114,36 +94,11 @@ Is it okay to use a different LLM platform instead of OpenAI for the homework?,e
 "Do I need a paid API like OpenAI to finish the assignments, or can I run everything locally?",ee43413718
 "If I use another model provider, will I have to change the code myself?",ee43413718
 Where should I look if I want to adapt the project to a platform like Groq?,ee43413718
-Can I use open-source alternatives instead of the OpenAI API for this course?,3fd5c51182
-Where can I find the list of OpenAI alternatives mentioned in Module 1?,3fd5c51182
-Is it okay to follow the course using an open-source LLM API rather than OpenAI?,3fd5c51182
-"Does the course support non-OpenAI options, and where is that covered?",3fd5c51182
-What should I check if I want to use an open-source replacement for OpenAI in the intro module?,3fd5c51182
-Why am I getting RateLimitError 429 with insufficient_quota on OpenAI even though I’m not sending many requests?,6e1d8a7b29
-"Does insufficient_quota mean I just need to wait and retry later, or is something wrong with my account?",6e1d8a7b29
-My OpenAI API calls fail because of no credit — what’s the quickest fix to get the course working again?,6e1d8a7b29
-"Can I use a free alternative instead of paying for OpenAI credit, and which ones work with the course?",6e1d8a7b29
-What model or provider should I switch to if I want to avoid the quota error without adding money to OpenAI?,6e1d8a7b29
 "Why does my homework query return an empty list after filtering, even though the data is there?",83da208a64
 What am I missing if my Q3 filter gives no results in the LLM Zoomcamp homework?,83da208a64
 Could this be an indexing problem if the search comes back empty after I apply the filter?,83da208a64
 Do I need to set up the index differently before loading the data for this assignment?,83da208a64
 How should I fix the empty results issue in HW Q3 when using filters and queries?,83da208a64
-Why am I getting a SyntaxError about an invalid character when I run the minsearch file I downloaded?,f3a92e7c81
-Did I probably save the GitHub page instead of the actual Python source for minsearch?,f3a92e7c81
-What’s the right way to download minsearch from GitHub so I can run it without that weird character error?,f3a92e7c81
-Is there a better way to install minsearch than copying the file from GitHub by hand?,f3a92e7c81
-Should I use pip or uv to install minsearch instead of downloading the raw code?,f3a92e7c81
-Why do I get ModuleNotFoundError when I try to import docx in parse-faq.ipynb?,cf93377279
-Is the package name for docx actually python-docx?,cf93377279
-What should I install if import docx keeps failing in the notebook?,cf93377279
-How do I fix the docx import issue in parse-faq.ipynb?,cf93377279
-Do I need to pip install python-docx instead of docx?,cf93377279
-"How can I check token usage for Gemini, Mistral, or Hugging Face models if tiktoken is really meant for OpenAI only?",4d8c1f5b3a
-Is it okay to use cl100k_base as a fallback tokenizer for other LLM providers when I want an estimate?,4d8c1f5b3a
-What is the recommended way to count tokens in Gemini with the official SDK?,4d8c1f5b3a
-How do I get token counts for open-source models like Llama using Transformers?,4d8c1f5b3a
-Which tokenizer should I use for Mistral instead of trying to rely on OpenAI-style token counting?,4d8c1f5b3a
 Why do I get a different token count in tiktoken than what OpenAI shows in the API response?,bf0403d21b
 "How come my prompt has 320 tokens locally, but OpenAI says 327 for the same request?",bf0403d21b
 Does chat.completions.create add extra tokens beyond the text I send?,bf0403d21b
@@ -169,46 +124,11 @@ Can I use Deepseek R1 with tools on Groq without paying?,0d74a3616f
 Does Llama 4 on Groq work for tool calling in dev?,0d74a3616f
 Are there any no-cost models I can test with tool use support?,0d74a3616f
 Where can I read the docs for Groq tool use and free models?,0d74a3616f
-Why do I get `RuntimeError: Already running asyncio in this thread` in Jupyter when I use `asyncio.run()`?,7c4e1a3b58
-"In a notebook, what should I do instead of `asyncio.run(main())` for an async function?",7c4e1a3b58
-"For the agents homework, should I use `mcp.run()` or `mcp.run_async()` in the notebook?",7c4e1a3b58
-How do I start the FastMCP server for the homework without hitting the asyncio error?,7c4e1a3b58
-"When the homework says to run the server, do I launch `python weather_server.py` in Jupyter or in a terminal?",7c4e1a3b58
-Why does my MCP tool complain that it wanted a number even though I sent a float?,5beafdd0c8
-"In FastMCP, is a Python float not considered valid for a numeric tool argument?",5beafdd0c8
-"When I define a tool input schema, should I think in Python types or JSON types?",5beafdd0c8
-How do I make sure the arguments I send to a tool match its schema correctly?,5beafdd0c8
-Does the JSON Schema type number include both ints and floats?,5beafdd0c8
-Which non-OpenAI APIs actually work for tool calling in this module?,2a8f6c4d91
-"Does Groq support function calling, and if yes, which model should I try?",2a8f6c4d91
-"Can I use Mistral or Gemini for tool use here, or are they missing something compared with OpenAI?",2a8f6c4d91
-"Is Ollama okay for local tool calling in the agents homework, and what model/setup does it need?",2a8f6c4d91
-"If I switch away from OpenAI, what parts of chat_assistant.py or mcp_client.py usually need changes?",2a8f6c4d91
-How do I install the MCP Inspector for this course?,d09e8d4843
-What command should I run to get the MCP Inspector installed?,d09e8d4843
-Do I need Node.js first before installing the MCP Inspector?,d09e8d4843
-What’s the npm install command for the MCP Inspector package?,d09e8d4843
-I’m on Module 2 Agents — how can I set up the MCP Inspector?,d09e8d4843
 Why do I get `AttributeError: 'str' object has no attribute 'output'` when I call OpenAI Responses API with a non-OpenAI model?,9e7b3f0c25
 "Can I use `client.responses.create(...)` and `response.output` with Mistral, Groq, or Gemini in my agent code?",9e7b3f0c25
 What should I use instead of the Responses API if I'm switching my LLM provider away from OpenAI?,9e7b3f0c25
 How do I read the assistant reply from chat completions when the provider doesn't support OpenAI's Responses API?,9e7b3f0c25
 Do I need to change my tools schema too when I move from OpenAI to another model provider?,9e7b3f0c25
-How do I start the MCP Inspector from the terminal?,42c7af7ed5
-What command should I run to open the MCP Inspector?,42c7af7ed5
-Is there a simple npx command for launching the MCP Inspector?,42c7af7ed5
-How can I run the Model Context Protocol Inspector locally?,42c7af7ed5
-What’s the terminal command to inspect MCP with the Inspector tool?,42c7af7ed5
-How do I connect the inspector to an MCP server in this module?,9c2fd5451c
-Can the MCP inspector show the tools and other things exposed by a server?,9c2fd5451c
-What can I check inside an MCP server using the inspector?,9c2fd5451c
-Is there a way to test my MCP server without writing extra code?,9c2fd5451c
-Where can I find a quick guide for using MCP Inspector with my server?,9c2fd5451c
-"Why do I get ""asyncio.run() cannot be called from a running event loop"" in Jupyter, and what should I use instead?",f96fde1726
-"In a notebook cell, why does calling `asyncio.run(main())` fail even though the same code works in a script?",f96fde1726
-What’s the right way to run an async function in Jupyter without hitting the asyncio runtime error?,f96fde1726
-"How can I fix the ""already running asyncio"" error when using `Client(weather_server.mcp)` inside a notebook?",f96fde1726
-Is there a reason I should use `await main()` instead of `asyncio.run(main())` in Jupyter notebooks?,f96fde1726
 Why am I getting a 400 missing required parameter for tools[0].function in Azure OpenAI?,b9c7c6bb34
 What should the get_weather_tool JSON look like to fix the tools[0].function error?,b9c7c6bb34
 How do I define a weather function tool so Azure OpenAI accepts it?,b9c7c6bb34
